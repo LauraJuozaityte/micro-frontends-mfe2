@@ -9,11 +9,12 @@ export default {
     
     config.plugins.push(
       new NextFederationPlugin({
-        name: 'mfe2',
+        name: 'remote',
         filename: 'static/chunks/remoteEntry.js',
 
         exposes: {
           './Nav': './components/Nav.tsx', 
+          './Footer': './components/Footer.tsx',
           './add': './utils/add.ts',
           './multiplyByTwo': './utils/multiplyByTwo.ts', 
         },

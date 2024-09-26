@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <nav
       style={{
-        background: 'cadetblue',
+        background: 'RebeccaPurple',
         width: '100%',
         height: '100px',
         color: 'white',
@@ -14,7 +14,7 @@ const Nav = () => {
         alignItems: 'center',
         fontSize: '24px',
       }}>
-      Nav
+      Nav from remote 3001
     </nav>
   );
 };
