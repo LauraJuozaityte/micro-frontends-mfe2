@@ -13,7 +13,7 @@ const Footer = () => {
         color: "dimgray",
       }}
     >
-      <h2>This is footer from remote:3001</h2>
+      <h2>Footer (3001)</h2>
     </footer>
   );
 };

@@ -14,7 +14,7 @@ const Nav = () => {
         alignItems: 'center',
         fontSize: '24px',
       }}>
-      Nav from remote 3001
+      Nav (Remote 3001)
     </nav>
   );
 };
